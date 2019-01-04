@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/layout/Navbar';
-import {HashRouter as Router,Route,Switch} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import index from './components/layout';
 import{ Provider} from './context';
 import Lyrics  from './components/tracks/Lyrics';
@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <Provider>
-      <Router>
+      <Router basename={Process.env.PUBLIC_URL}>
       <React.Fragment>
        <Navbar/>
        <div className="container">
