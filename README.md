@@ -1,4 +1,4 @@
-Find the Deploy application to this link :https://jacobsima.github.io/lyricsfinderappReact/#/
+Find the Deployed application to this link :https://jacobsima.github.io/lyricsfinderappReact/#/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
